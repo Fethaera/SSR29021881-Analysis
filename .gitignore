@@ -1,0 +1,15 @@
+# Ignore all raw/untrimmed sequencing files
+*.fastq.gz
+*.fq.gz
+*.bam
+*.bai
+.nfs*
+
+# Ignore massive Shovill/Spades intermediate assembly work
+shovill/spades/
+shovill/ram/
+shovill/shovill.log
+
+# Ignore temporary files in plasmidfinder/integron_finder
+plasmidfinder/tmp/
+integron_finder/*/tmp_*/

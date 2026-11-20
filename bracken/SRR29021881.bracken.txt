@@ -1,0 +1,21 @@
+name	taxonomy_id	taxonomy_lvl	kraken_assigned_reads	added_reads	new_est_reads	fraction_total_reads
+Neisseria meningitidis	487	S	772286	74502	846788	0.97801
+Neisseria lactamica	486	S	9781	703	10484	0.01211
+Neisseria gonorrhoeae	485	S	2036	244	2280	0.00263
+Neisseria polysaccharea	489	S	1695	167	1862	0.00215
+Neisseria cinerea	483	S	1509	38	1547	0.00179
+Neisseria sicca	490	S	598	92	690	0.00080
+Neisseria subflava	28449	S	494	3	497	0.00057
+Neisseria elongata	495	S	191	1	192	0.00022
+Neisseria sp. 10023	1853278	S	138	0	138	0.00016
+Neisseria sp. KEM232	655307	S	85	0	85	0.00010
+Neisseria mucosa	488	S	79	11	90	0.00010
+Neisseria zoodegmatis	326523	S	32	0	32	0.00004
+Neisseria sp. 10022	1853276	S	30	0	30	0.00003
+Actinobacillus pleuropneumoniae	715	S	88	419	507	0.00059
+Haemophilus influenzae	727	S	35	19	54	0.00006
+Haemophilus sp. oral taxon 036	712310	S	31	13	44	0.00005
+Dickeya chrysanthemi	556	S	221	16	237	0.00027
+Salmonella enterica	28901	S	19	57	76	0.00009
+Capnocytophaga haemolytica	45243	S	72	0	72	0.00008
+Homo sapiens	9606	S	118	0	118	0.00014

@@ -1,0 +1,54 @@
+/content/shovill-env/bin/quast.py /content/results/shovill/contigs.fa -o /content/results/quast
+
+Version: 5.3.0
+
+System information:
+  OS: Linux-6.6.159+-x86_64-with-glibc2.39 (linux_64)
+  Python version: 3.11.18
+  CPUs number: 2
+
+Started: 2026-11-20 11:42:01
+
+Logging to /content/results/quast/quast.log
+NOTICE: Maximum number of threads is set to 1 (use --threads option to set it manually)
+
+CWD: /content
+Main parameters: 
+  MODE: default, threads: 1, min contig length: 500, min alignment length: 65, min alignment IDY: 95.0, \
+  ambiguity: one, min local misassembly length: 200, min extensive misassembly length: 1000
+
+WARNING: Can't draw plots: python-matplotlib is missing or corrupted.
+
+Contigs:
+  Pre-processing...
+  /content/results/shovill/contigs.fa ==> contigs
+
+2026-11-20 11:42:02
+Running Basic statistics processor...
+  Contig files: 
+    contigs
+  Calculating N50 and L50...
+    contigs, N50 = 44190, L50 = 14, auN = 55980.0, Total length = 2088839, GC % = 51.76, # N's per 100 kbp =  0.00
+Done.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding or --glimmer option to enable it.
+
+2026-11-20 11:42:02
+Creating large visual summaries...
+This may take a while: press Ctrl-C to skip this step..
+  1 of 1: Creating Icarus viewers...
+Done
+
+2026-11-20 11:42:02
+RESULTS:
+  Text versions of total report are saved to /content/results/quast/report.txt, report.tsv, and report.tex
+  Text versions of transposed total report are saved to /content/results/quast/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version (interactive tables and plots) is saved to /content/results/quast/report.html
+  Icarus (contig browser) is saved to /content/results/quast/icarus.html
+  Log is saved to /content/results/quast/quast.log
+
+Finished: 2026-11-20 11:42:02
+Elapsed time: 0:00:01.654771
+NOTICEs: 2; WARNINGs: 1; non-fatal ERRORs: 0
+
+Thank you for using QUAST!
